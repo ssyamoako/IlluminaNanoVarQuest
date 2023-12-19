@@ -1,14 +1,14 @@
 # A snakemake pipeline for variant calling from _P. falciparum_ short amplicon reads
 ### Motivation
-_PS: The pipeline is still at it's infancy stage_
+_PS: "The pipeline is currently in the beta stage."_
 
 
 
 We sequenced an Illumina sequencing library on the Oxford Nanopore MinION (ONT) to evaluate the cost of this approach.
 - PCR amplicons from _Plasmodium falciparum_ drug resistance markers (_ama1, k13, dhps, dhfr and mdr1_) were generated in duplicate.
 - Illumina sequencing libraries were generated using KAPA reagents and KAPA indexes.
-- Finally, ONT sequence libraries were generated using just one set of ONT adapters and sequenced on the ONT using the Flow Cell R9.4.1.
-- Hence, we cannot demultiplex the sequences into individual samples and further analyses were done at the population level.
+- Finally, ONT sequence libraries were generated using just one set of ONT adapters and sequenced on the ONT using the R9.4.1 Flow Cell.
+- Hence, we cannot demultiplex the sequences into individual samples; further analyses were done at the population level.
 
 ---
 
